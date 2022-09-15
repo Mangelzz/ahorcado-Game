@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    background-color: #ffb703;
+}
+
+header{
+    padding: 5px;
+    text-align: center;
+}
+
+h1{
+    margin: 0;
+}
+
+main img{
+    margin-top: 20px;
+    width: 200px;
+}
+
+#jugar{
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border: none;
+    background-color: #ffb703;
+    transition: 150ms all;
+}
+
+#palabraAdivinar{
+    height: 3em;
+    font-size: 16px;
+    text-align: center;
+}
+
+#palabraAdivinar span{
+    font-size: 200px;
+    border-bottom: 2px solid #000;
+    width: 30px;
+    text-align: center;
+    margin-right: 6px;
+    display: inline-block;
+}
+
+#letras{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#letras button{
+    font-size: 16px;
+    padding: 5px;
+    border: none;
+    background-color: #ffb703;
+    transition: 150ms all;
+    border-bottom: 1px solid #000;
+}
+
+button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+#palabraAdivinar span{
+    font-size: 2em;
+    border-bottom: 2px solid #000;
+    text-align: center;
+    font-size: 25px;
+    display: inline-block;
+}
+
+#resultado{
+    text-align: center;
+}
+
+h1, button, span{
+    font-family: 'SF Pixelate', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+    #letras{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #letras button{
+        display: block;
+    }
+    #jugar {
+        color: #000;
+    }
+}

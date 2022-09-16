@@ -3,6 +3,10 @@ body{
     background-color: #ffb703;
 }
 
+h1, button, span, footer{
+    font-family: 'SF Pixelate', sans-serif;
+}
+
 header{
     padding: 5px;
     text-align: center;
@@ -18,12 +22,15 @@ main img{
 }
 
 #jugar{
+    border: 1px solid #000;
     font-size: 20px;
     display: block;
     margin: 0 auto;
-    margin-bottom: 20px;
-    border: none;
-    background-color: #ffb703;
+    /* margin-bottom: 20px;
+    border: none; */
+    background-color: #fb8500;
+    border-radius: 10px;
+    padding: 5px;
     transition: 150ms all;
 }
 
@@ -74,9 +81,21 @@ button:hover{
     text-align: center;
 }
 
-h1, button, span{
-    font-family: 'SF Pixelate', sans-serif;
+.pie{
+    margin-top: 20px;
+    margin: 10px;
+    text-align: center;
+    vertical-align: bottom;
 }
+
+.imagenes{
+    text-align: center;
+}
+
+a img{
+    margin-top: 10px;
+}
+
 
 @media screen and (max-width: 600px) {
     #letras{
